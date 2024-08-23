@@ -1,0 +1,83 @@
+.hero-image{
+
+   background-image: url(../imagens/fundo1.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   min-height: 70vh;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding-right: 15px;
+}
+.text-content{
+    color: white;
+}
+.destaques{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 5px;
+    justify-content: center;
+   
+    
+}
+.destaques .card{
+  margin: 5px; 
+}
+.novidades{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+  
+}
+.novidades .destaques {
+   margin-top: 50px;
+  
+}
+.Anuncio1{
+    height: 300px;
+}
+footer{
+  background-color: rgba(0, 0, 0, 0.85);
+  color: white;
+  
+}
+
+
+.categories-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.category {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s;
+  text-align: center;
+  background-color: #f0f0f0;
+}
+
+.category i {
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+
+.category span {
+  font-weight: bold;
+}
+
+.category:hover {
+  transform: scale(1.1);
+}
